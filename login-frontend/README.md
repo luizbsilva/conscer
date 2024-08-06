@@ -1,27 +1,54 @@
-# LoginFrontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
+[ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
 
-## Development server
+<h1 align="center" style="font-weight: bold;">Login Page in Angular 💻</h1>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![angular][ANGULAR__BADGE]
+![typescript][TYPESCRIPT__BADGE]
 
-## Code scaffolding
+<p align="center">
+ <a href="#started">Getting Started</a> • 
+  <a href="#started">App Routes</a> • 
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+<h2 id="started">🚀 Getting started</h2>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Here you describe how to run your project locally
 
-## Running unit tests
+<h3>Prerequisites</h3>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Here you list all prerequisites necessary for running your project. For example:
 
-## Running end-to-end tests
+- [NodeJS](https://github.com/)
+- [Git 2](https://github.com)
+- [Angular CLI](https://angular.io/cli)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<h3>Cloning</h3>
 
-## Further help
+How to clone your project
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+git clone https://github.com/luizbsilva/conscer/tree/master/login-app
+```
+
+<h3>Starting</h3>
+
+How to start your project
+
+```bash
+cd project-name
+npm run start
+```
+
+<h2 id="routes">📍 Application Routes</h2>
+
+Here you can list the main routes of your API, and what are their expected request bodies.
+​
+| route               | description                                          
+|----------------------|-----------------------------------------------------
+| <kbd>/signup</kbd>     | Page to sign up
+| <kbd>/login</kbd>     | Page to login
+| <kbd>/user</kbd>     | Protected page that only logged in users can access
+
